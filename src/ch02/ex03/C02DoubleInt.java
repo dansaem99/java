@@ -6,8 +6,8 @@ public class C02DoubleInt {
 		int i = (int)d;
 		System.out.println(i);
 		
-		double f = Math.floor(d);
-		double r = Math.round(d);
+		double f = Math.floor(d);//내림처리
+		double r = Math.round(d);//반올림
 		System.out.printf("%.2f, %.2f\n", f, r);
 		
 		// 과제: = 오른편을 채워라.
