@@ -7,6 +7,10 @@ public class C01Arith {
 		// 과제: 아래 compile error 를 해결하라.
 		//byte c 는 건드리지 않는다.
 		//byte c = a + b; // 덩치 큰 a + b를 작은 상자 c에 못 넣은다.
+<<<<<<< HEAD
+=======
+		
+>>>>>>> refs/remotes/origin/master
 		byte c = (byte) ( a + b );
 		System.out.println(c);
 		

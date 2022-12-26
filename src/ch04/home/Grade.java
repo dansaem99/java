@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Grade {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+<<<<<<< HEAD
 	 	int score = 0;
 	 	String grade = "";
 	   
@@ -24,6 +25,25 @@ public class Grade {
 	   
 	 	System.out.println(grade);
 		
+=======
+		int score = 0;
+		String grade = "" ;
+				
+		System.out.print("점수:");
+		score = sc.nextInt();
+		
+		if(score >= 98) grade = "A+";
+		else if(score >= 94) grade = "A";
+		else if(score >= 90) grade = "A-";
+		 
+		else if(score >= 88) grade = "B+";
+		else if(score >= 84) grade = "B";
+		else if(score >= 80) grade = "B-";
+		
+		else grade = "c";
+		
+		System.out.print(grade);
+>>>>>>> refs/remotes/origin/master
 	}
 }
 /*

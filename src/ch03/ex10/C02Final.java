@@ -10,5 +10,10 @@ public class C02Final {
 		final double PI = 3.14;
 		int r = 3;
 		area = PI * r * r;
+<<<<<<< HEAD
+=======
+		
+		System.out.println();
+>>>>>>> refs/remotes/origin/master
 	}
 }
