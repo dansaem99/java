@@ -21,11 +21,11 @@ public class Grade선생님답 {
 		
 		tot = kor + eng + math;
 		avg = tot / 3.0;
-<<<<<<< HEAD
+
 		grade = (avg >= 90) ? 'A' : (avg >= 80) ? 'B' : 'C';
-=======
+
 		grade = (avg >= 90) ? 'A' : (avg >= 80) ? 'B' : 'c';
->>>>>>> refs/remotes/origin/master
+
 		
 		System.out.printf("\n총점: %d\n평균: %.1f\n학점: %c", tot, avg, grade);
 	}

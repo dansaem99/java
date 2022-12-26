@@ -2,11 +2,11 @@ package ch04.ex01;
 
 public class C05Grade {
 	public static void main(String[] args) {
-<<<<<<< HEAD
+
 		int score = 45;
-=======
-		int score = 90;
->>>>>>> refs/remotes/origin/master
+
+		int core = 90;
+		
 		char grade = 0;
 		
 		if(score >= 90) grade = 'A';

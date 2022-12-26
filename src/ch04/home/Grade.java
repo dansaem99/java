@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Grade {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-<<<<<<< HEAD
+
 	 	int score = 0;
 	 	String grade = "";
 	   
@@ -25,9 +25,9 @@ public class Grade {
 	   
 	 	System.out.println(grade);
 		
-=======
-		int score = 0;
-		String grade = "" ;
+
+		int core = 0;
+		String rade = "" ;
 				
 		System.out.print("점수:");
 		score = sc.nextInt();
@@ -43,7 +43,7 @@ public class Grade {
 		else grade = "c";
 		
 		System.out.print(grade);
->>>>>>> refs/remotes/origin/master
+
 	}
 }
 /*
