@@ -15,7 +15,6 @@ public class H02_369 {
 			
 			if(i % 10 == 0) System.out.println();
 		}
-		
 	}
 }
 /*
