@@ -10,12 +10,12 @@ public class Board {
 		return msg;
 	}
 	
-	public void setMsg(String msg) {
-		this.msg = msg;
-	}
-	
 	public LocalDate getWrittenDate() {
 		return writtenDate;
+	}
+	
+	public void setMsg(String msg) {
+		this.msg = msg;
 	}
 	
 	public void setWrittenDate(LocalDate writtenDate) {

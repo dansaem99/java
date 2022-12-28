@@ -19,6 +19,7 @@ public class User {
 	public void setAge(int age) {
 		this.age = age;
 	} 
+	//domain을 디자인할 때  캡슣와해야한다.
 	//accessor 접근자 제어자 이다.
 		
 }//set쓰다 get읽다
