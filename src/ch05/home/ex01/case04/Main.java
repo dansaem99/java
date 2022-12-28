@@ -18,7 +18,8 @@ public class Main {
 		
 		System.out.println();
 		
-		System.out.printf("이름: %s\n나이: %d\n가입일: %s", user.getUserName(), user.getAge(), user.getSubscription());
+		System.out.printf("이름: %s\n나이: %d\n가입일: %s",
+				user.getUserName(), user.getAge(), user.getSubscription());
 	}
 }
 /*

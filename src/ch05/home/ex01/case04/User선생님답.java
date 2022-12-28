@@ -2,17 +2,17 @@ package ch05.home.ex01.case04;
 
 import java.time.LocalDate;
 
-public class User {
+public class User선생님답 {
 	private String userName;
 	private int age;
-	private LocalDate subscription;
+	private LocalDate regDate;
 	
 	public String getUserName() {
 		return userName;
 	}
 	
 	public void setUserName(String userName) {
-		boolean username = false;
+		this.userName = userName;
 	}
 	
 	public int getAge() {
@@ -23,21 +23,12 @@ public class User {
 		this.age = age;
 	}
 	
-	public LocalDate getSubscription() {
-		return subscription;
+	public LocalDate getRegDate() {
+		return regDate;
 	}
 	
-	public void setSubscription(LocalDate subscription) {
-		this.subscription = subscription;
-	}
-
 	public void setRegDate(LocalDate regDate) {
-		// TODO Auto-generated method stub
-		
+		this.regDate = regDate;
 	}
-
-	public Object getRegDate() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 }
