@@ -1,4 +1,4 @@
-package ch06.ex01.home.ex01.case03;
+package ch06.home.ex01.case03;
 
 public class Main {
 	public static void main(String[] args) {
@@ -6,6 +6,6 @@ public class Main {
 		Grape grape = new Grape();
 	}
 }
-/* 
+/*
 사과 포도 등의 과일을 마련했습니다.
 */
