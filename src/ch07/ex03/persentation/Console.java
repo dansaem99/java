@@ -8,4 +8,9 @@ public interface Console {
 	static void info(Object obj) {
 		System.out.println(obj);
 	}
+	
+	static String inStr(String msg) {
+		System.out.print(msg + "\n> ");
+		return sc.nextLine().trim();
+	}
 }
