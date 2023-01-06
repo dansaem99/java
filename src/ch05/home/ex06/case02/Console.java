@@ -34,7 +34,7 @@ public class Console {
 		  isGood = num.matches("[1-10]+");
 		  if(!isGood) System.out.println("ERROR] 자연수가 아닙니다.");
 	  } while(!isGood);
-      return num;
+  return num;
    }
    public static void info(String msg) {
       System.out.println(msg);

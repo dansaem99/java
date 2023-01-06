@@ -1,6 +1,6 @@
 package ch07.ex04.case05.domain;
 
-public class Score {
+public class Score { //row를 만든것이다.
 	private int kor;
 	private int eng;
 	private int math;
@@ -21,6 +21,10 @@ public class Score {
 
 	public void setSum(int sum) {
 		this.sum = sum;
+	}
+
+	public int getSum() {
+		return this.sum;
 	}
 
 	public void setAvg(int avg) {
