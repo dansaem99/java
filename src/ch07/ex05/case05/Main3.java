@@ -1,6 +1,6 @@
 package ch07.ex05.case05;
 
-public class Main3 {
+public class Main3 { //Main2와 같은 코드지만 더 간단해진 코드
 	public static void main(String[] args) {
 		Floor floor1 = new Floor();
 		Floor floor2 = new Floor();

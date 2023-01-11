@@ -13,12 +13,12 @@ public class MyMap {
 		
 		System.out.println(map);
 		
-		User user = map.get(1);
-		System.out.println(user);//조회를 해준다.
+		User user = map.get(1);//조회를 해준다.
+		System.out.println(user);
 		System.out.println(map);
 		
-		user = map.remove(1);
-		System.out.println(user);//조회하고 삭제해준다.
+		user = map.remove(1);//조회하고 삭제해준다. remove 제거해준다.
+		System.out.println(user);
 		System.out.println(map);
 	}
 }

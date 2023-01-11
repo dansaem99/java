@@ -5,7 +5,7 @@ public class C04String {
 		String s = "|"+ " a happy ".trim() + "|";
 		// trim은 스페이스를 삭제 해준다.
 		s = s.concat(" dog"); // 주어에 목적어를 붙여 넣기한다.
-		//주어는 s이고 목적어는 dog이다.
+		//주어는 s이고 목적어는 dog이다. concat = 괄호 안 문자열을 전부 결합해서 반환해 주는 함수
 		s = s.substring(2); 
 		// 0은 |이고 1은 a이고 2는 띄어쓰기이므로 2까지 다 지워준다.
 		System.out.println(s);

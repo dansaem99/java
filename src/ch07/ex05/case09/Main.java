@@ -4,10 +4,10 @@ public class Main {
 	public static void main(String[] args) {
 		C c = new C();
 		String msg = "";
-		if(c instanceof C) msg += "C ";
+		if(c instanceof C) msg += "C "; //instanceof 대신 넣어주는것
 		if(c instanceof B) msg += "B ";
 		if(c instanceof A) msg += "A ";
-		if(c instanceof Object) msg += "Object";
+		if(c instanceof Object) msg += "Object";// 모든 클래스에 오브젯은 다 들어가있다.
 		System.out.println(msg);
 		//C에 B와 A를 연결시켜 같이 나온거다.
 		

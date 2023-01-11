@@ -3,8 +3,8 @@ package ch07.ex03.Dao;
 import ch07.ex03.domain.User;
 
 public interface UserDao {
-	public User selectUser();
-	public void insertUser(User user);
-	public void updateUser(String userName);
-	public void deleteUser();
+	public User selectUser();//사용자를 선택한다.
+	public void insertUser(User user);//사용자를 끼워 넣다.
+	public void updateUser(String userName);//사용자를 갱신한다.
+	public void deleteUser();//사용자를 삭제한다.
 }

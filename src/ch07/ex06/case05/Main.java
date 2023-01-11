@@ -3,8 +3,8 @@ package ch07.ex06.case05;
 public class Main {
 	public static void main(String[] args) {
 		Cabinet<A> cabinet1 = new Cabinet<>();
-		Cabinet<B> cabinet2 = new Cabinet<>();
-		//Cabinet<C> cabinet1 = new Cabinet<>(); A이하가 아니기 때문에
+		Cabinet<B> cabinet2 = new Cabinet<>();//B는 a와 부모 자식이다.
+		//Cabinet<C> cabinet3 = new Cabinet<>(); A이하가 아니기 때문에
 		
 		A[] arr1 = {new A(), new A()};
 		B[] arr2 = {new B(), new B()};

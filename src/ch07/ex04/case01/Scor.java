@@ -8,7 +8,7 @@ public class Scor {
 		
 		for(int score: scores) sum += score;
 		
-		avg = 1.0 * sum / scores.length; // scores.length {}저 숫자응 다 더해준다.
+		avg = 1.0 * sum / scores.length; // scores.length {}를 다 더하고 나눈 = 평균값.
 		
 		System.out.printf("%d %.1f", sum, avg);
 	}

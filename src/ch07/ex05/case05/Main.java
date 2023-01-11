@@ -14,5 +14,7 @@ public class Main {
 		System.out.println(cats);
 		
 		for(Cat cat: cats) cat.eat();
+		//(Cat cat: cats) 는 고양이 3마리 이름을 배열한것
+		//cat.eat() 3마리가 먹는다는 뜻
 	}
 }

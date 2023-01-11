@@ -1,4 +1,4 @@
-package ch07.ex03.persentation;
+package root.presentation;
 
 import java.util.Scanner;
 
@@ -11,6 +11,6 @@ public interface Console {
 	
 	static String inStr(String msg) {
 		System.out.print(msg + "\n> ");
-		return sc.nextLine().trim(); //trim 불필요한 부분을 잘라 내다.
+		return sc.nextLine().trim();
 	}
 }

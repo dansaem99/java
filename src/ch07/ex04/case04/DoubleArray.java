@@ -19,9 +19,9 @@ public class DoubleArray {
 			//System.out.print(" " + (i + 1) + " ");
 			for(int j = 0; j <scores[0].length; j++) {//자식은 col를푠현했다.
 				sum += scores[i][j];
-				System.out.printf("%5d", scores[i][j]);
+				System.out.printf("%5d", scores[i][j]); //{}안에 숫자 표시
 			}
-			System.out.printf("%5d %4d\n", sum, sum / scores[i].length);
+			System.out.printf("%5d %4d\n", sum, sum / scores[i].length); //sum 더한값 그 뒤에 sum은 평균값
 		}
 	}
 }

@@ -16,7 +16,7 @@ public class ScoreDaoImpl implements ScoreDao {
 	}
 	
 	@Override
-	public Score[] selectScores() {
+	public Score[] selectScores() { // selectScores = 점수 선택
 		return this.scores;
 	}
 }

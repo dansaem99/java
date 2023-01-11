@@ -4,8 +4,8 @@ public class Cat extends Animal{
 	private int age;
 	
 	public Cat(String catName, int age) {
-		super(catName);//맴버변수 초기화하기위해.
-		//this.animalName = catName;
+		super(catName);//맴버변수 초기화하기위해. 8번과 같은 내용이다. 줄여서 쓴것이다.
+		//this.animalName = catName; 이렇게 적으면 오류가 뜬다
 		this.age = age;
 	}
 

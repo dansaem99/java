@@ -26,13 +26,13 @@ public class ScoreServiceImpl implements ScoreService {
 	}
 	
 	// 과제: 학생별 합계, 평균 필드를 채워라.
-	private void calcScore(Score[] scores) {
-		for(int i =0; i < scores.length; i++) {
+	private void calcScore(Score[] scores) { //calcScore = 계산점수
+		for(int i =0; i < scores.length; i++) {//sum은 더한값 avg 평균값
 			scores[i].setSum(
 					scores[i].getKor() +
 					scores[i].getEng() +
-					scores[i].getMath());
-			scores[i].setAvg(scores[i].getSum() / 3);
+					scores[i].getMath()); //여기에서 더한값을 구했다.
+			scores[i].setAvg(scores[i].getSum() / 3); //여기에서는 평균값을 더했다.
 			
 		}
 	}

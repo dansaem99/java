@@ -11,7 +11,7 @@ public class C03String {
 		String sumStr = "" + sum;
 		System.out.println(sumStr);
 		
-		int i = Integer.parseInt(sumStr);
+		int i = Integer.parseInt(sumStr);//parseInt 문자열을 Int 값으로 변환하는 함수.
 		
 		String s = a + b + ""; // 숫자의 3이 아니라 문자의 3이다.
 		System.out.println(s);

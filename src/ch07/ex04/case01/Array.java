@@ -1,11 +1,11 @@
 package ch07.ex04.case01;
 
-public class Array {
+public class Array {//Array = 정렬
 	public static void main(String[] args) {
 		String[] strs = new String[3];
 		System.out.println(strs);
 		
-		Integer[] integers = new Integer[3];
+		Integer[] integers = new Integer[3]; //Integer 정수
 		System.out.println(integers);
 		
 		int[] ints = new int[3];

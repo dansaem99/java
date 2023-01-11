@@ -11,6 +11,6 @@ public class Main {
 		shooter.fire();
 	}
 }
-//DAO (Data Access Object) Access 읽기 쓰기
+//DAO (Data Access Object) Access 읽기 쓰기 Access = 접속하다.
 // Access을 4개로 표현할때 create read update delete
 //그래서 현장에서는 crud라고 한다

@@ -12,13 +12,13 @@ public class Main {
 		corps.add(bumblebee);
 		corps.add(prime);
 		
-		for(Autobot autobot: corps) {
+		for(Autobot autobot: corps) { // 달리고 싸우는걸 알려준다.
 			autobot.run();
 			autobot.fight();
 			//autbot.guard();
 			
-			if(autobot instanceof Bumblebee bot) bot.guard();
-			if(autobot instanceof Prime bot) bot.command();
+			if(autobot instanceof Bumblebee bot) bot.guard(); //보호하는게 나온다.
+			if(autobot instanceof Prime bot) bot.command(); //지휘하는게 나온다.
 		}
 	}
 }

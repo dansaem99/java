@@ -3,5 +3,5 @@ package ch07.ex05.case05;
 import java.util.ArrayList;
 
 public class House extends ArrayList<Floor>{
-	
+	//집에 층층있다. 복층
 }
