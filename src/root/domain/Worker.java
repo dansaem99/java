@@ -6,11 +6,10 @@ public class Worker {
 	private int workerId;
 	private String workerName;
 	private LocalDate joiningDate;
+	private String menu;
 	
-	public Worker(int workerId, String workerName, LocalDate joiningDate) {
-		this.workerId = workerId;
-		this.workerName = workerName;
-		this.joiningDate = joiningDate;
+	public Worker(String menu) {
+		this.menu = menu;
 	}
 
 	public void setWorkerId(int workerId) {
@@ -24,7 +23,11 @@ public class Worker {
 	public void setJoiningDate(LocalDate joiningDate) {
 		this.joiningDate = joiningDate;
 	}
-	
+
+	public void setMenu(String menu) {
+		this.menu = menu;
+	}
+
 	@Override
 	public String toString() {
 		return this.workerName;

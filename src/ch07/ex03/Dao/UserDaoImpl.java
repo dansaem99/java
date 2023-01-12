@@ -24,4 +24,5 @@ public class UserDaoImpl implements UserDao{
 	public void deleteUser() {
 		this.user = null;
 	}
+	
 }
